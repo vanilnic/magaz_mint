@@ -1,0 +1,105 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #ff38d4,#ffb8b8,#e6d47a);                                          
+    height: 100vh;
+}
+.form{
+    position: relative;
+    height: 65vh;
+    width: 25%;
+    border-radius: 10px;
+    top: 100px;
+    background-color: #F8E7E7;
+    border: 1px rgb(175, 83, 179) solid;   
+}
+
+
+.title {
+    position: relative;
+    justify-content: center;
+    color: rgb(175, 83, 179);
+    font-size: 50px;
+    font-style: initial;
+    top: 8%;
+    /* padding-bottom: 25%; */
+}
+
+.autho {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    padding-top: 24%;
+    font-size: 26px;
+    padding-bottom: 8%;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    padding-bottom: 8%;
+}
+.pass {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    padding-bottom: 12%;
+}
+input {
+    height: 60px;
+    width: 75%;
+    border-radius: 10px;
+    background-color: #f1d4ec;
+    color: rgb(130, 64, 133);
+    border: 2px solid rgb(236, 178, 238);
+    padding-left: 30px;
+}
+::placeholder {color: #9f7ac9;}
+
+input:focus {
+    outline: rgb(187, 129, 189);
+    border-color: rgb(236, 178, 238);
+}
+.butt {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 14%;
+}
+.button {
+    position: relative;
+    justify-content: center;
+    height: 60px;
+    width: 60%;
+    border-radius: 10px;
+    border: 3px solid rgb(235, 99, 194);
+    background-color: rgb(235, 99, 194);
+    color: #fff;
+    font-size: 32px;
+}
+button:hover{
+    background-color: rgb(209, 111, 216);
+    border: 3px solid rgb(209, 111, 216);
+}
+
+.reg {
+    display: flex;
+    justify-content: center;
+    color: #c84cd3;
+    height: 5%;
+    width: auto;
+    font-size: 22px;
+}
+.nav-link{
+    color: #c84cd3 !important;
+    text-decoration: none; 
+    transition: .5s;
+  }
+.nav-link:hover{
+  text-decoration: wavy;
+  color: #913699!important;
+}
+
